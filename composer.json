@@ -1,0 +1,36 @@
+{
+    "name": "brokentube/snowflake",
+    "description": "The next Laravel administration panel.",
+    "type": "library",
+    "license": "MIT",
+    "keywords": [
+        "laravel",
+        "admin",
+        "dashboard"
+    ],
+    "authors": [
+        {
+            "name": "Osama Aldemeery",
+            "email": "aldemeery@gmail.com"
+        },
+        {
+            "name": "WinterCore",
+            "email": "hogobbl@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {},
+    "require-dev": {
+        "symfony/var-dumper": "^4.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "SnowFlake\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "SnowFlake\\Tests\\": "tests/"
+        }
+    }
+}
